@@ -2,10 +2,6 @@ import Data.List
 import System.IO
 
 
-{-
-Calculate the distance between 2 data points
--}
-
 -- | Functie die berekent de kwadraat van het verschil van x en y
 kwadraatVerschil :: Double ->Double -> Double
 kwadraatVerschil x y = (y-x)^2
